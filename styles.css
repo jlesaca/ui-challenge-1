@@ -28,7 +28,6 @@ header {
 
 #e {
     width: 50%;
-    float: right;
     display: inline-block;
     height: 250px;
     background-color:teal;
@@ -56,7 +55,7 @@ header {
 
 #i {
     width: 99%;
-    height: 80;
+    height: 80px;
     background-color: teal;
 }
 
@@ -86,28 +85,36 @@ section {
         float: right;
         width: 380px;
     }
+    
+    .row-efgh{
+        width: 750px;
+        height: 250px;
+        display: inline-block;
+    }
 
     #e{
+        width: 190px;
         float: left;
-        width: 190px;
-        height: 250px;
     }
+
     #f{
-        float:left;
         width: 190px;
-        height: 250px;
+        float: left;
     }
+
     #g{
-        float:left;
         width: 190px;
-        height: 250px;
+        float: left;
     }
+
     #h{
         width: 190px;
         height: 250px;
+        margin-left: 570px;
     }
+
     #i{
-        width: 760px;
+        width: 960px;
         height: 150px;
     }
 }
